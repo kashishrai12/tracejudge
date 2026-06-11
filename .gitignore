@@ -1,0 +1,14 @@
+# secrets
+.env
+# python
+__pycache__/
+*.pyc
+.venv/
+# generated artifacts
+traces/
+benchmark/
+reports/
+*.jsonl
+trail_result*.json
+# the TRAIL dataset is cloned separately, never vendored
+trail-benchmark/
